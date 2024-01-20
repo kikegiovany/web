@@ -1,0 +1,227 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #e6e6e6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  /* Estilos del encabezado */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    font-size: 2em;
+  }
+  
+  .nav {
+    float: right;
+  }
+  
+  .nav-list {
+    list-style: none;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-item a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Estilos del contenido principal */
+  .main {
+    padding: 20px 0;
+  }
+  
+  .section {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  
+  /* Estilos del pie de página */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+
+
+
+
+
+
+
+/*PARA EL COLOR DE LOS CUADROS*/
+  .default {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  .default td {
+    border: 2px solid #000000;
+    background-color: #ffffff;
+
+    padding: 50px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
+  /* Estilos para el botón */
+.whatsapp-btn {
+  background-color: #25D366; /* Color de fondo de WhatsApp */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.whatsapp-btn:hover {
+  background-color: #128C7E; /* Cambio de color al pasar el ratón */
+}
+
+
+
+
+
+
+
+
+
+/*ESTE ES PARA EL CUADRO DE TEXTO*/
+
+
+form {
+  background-color: #ffafaf;
+  padding: 10px; /* Reducir el espacio interno del formulario */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Cambiar la dirección del diseño a columna */
+  align-items: center;
+  max-width: 800px; /* Limitar el ancho máximo del formulario */
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px; /* Reducir el espacio entre etiquetas y campos */
+}
+
+input[type="text"] {
+  width: calc(100%); /* Ajustar el ancho del campo de entrada */
+  padding: 8px;
+  margin-bottom: 10px; /* Reducir el espacio inferior del campo */
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 15px; /* Reducir el tamaño del botón */
+  cursor: pointer;
+  background-color: #25D366;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #128C7E;
+}
+
+
+
+
+
+/*BOTON DE REGRESAR*/
+.del {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 50px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.del div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  letter-spacing: 1px;
+  color: #ff0000;
+  z-index: 1;
+  transition: .6s;
+}
+
+.del:hover div {
+  letter-spacing: 4px;
+  color: #fff;
+  background: #ff0000;
+}
+
+
+
+
